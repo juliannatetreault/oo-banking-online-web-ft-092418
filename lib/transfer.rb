@@ -17,7 +17,7 @@ class Transfer
   end
   
   def execute_transactoin
-    if valid? && receiver.balance > amount 
+    if valid? && receiver.balance > amount && self.
   end
   
   def reverse_transaction
