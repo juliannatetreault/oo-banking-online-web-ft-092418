@@ -18,8 +18,8 @@ class Transfer
   
   def execute_transactoin
     if valid? && receiver.balance > amount && self.status == "complete"
-      receiver.balance -= amount
-      sender.balance += amount
+      sender.balance -= amount
+      receiver.balance += amount
       self.status = "complete"
     elsif 
     self.status = "rejected"
