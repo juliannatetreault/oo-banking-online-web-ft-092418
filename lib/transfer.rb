@@ -20,7 +20,7 @@ class Transfer
     if valid? && receiver.balance > amount && self.status == "complete"
       receiver.balance -= amount
       sender.balance += amount
-      self.status = "reversed"
+      self.status = "complete"
     elsif 
     self.status = "rejected"
     "Transaction rejected. Please check your account balance."
