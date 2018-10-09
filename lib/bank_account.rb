@@ -4,8 +4,8 @@ class BankAccount
   
   def initialize(name, balance = 1000, status = "open")
     @name = name
-    @balance = balance
-    @status = status
+    @balance = 1000
+    @status = "open"
   end
   
   def deposit(amount)

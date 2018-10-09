@@ -5,7 +5,7 @@ class Transfer
     @sender = sender
     @receiver = receiver
     @amount = amount
-    @status = "pennding"
+    @status = "pending"
   end
   
   def valid?
