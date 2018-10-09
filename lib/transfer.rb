@@ -16,5 +16,5 @@ class Transfer
     end
   end
   
-  def 
+  
 end
