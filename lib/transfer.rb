@@ -19,4 +19,8 @@ class Transfer
   def execute_transactoin
     
   end
+  
+  def reverse_transaction
+    
+  end
 end
