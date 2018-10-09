@@ -22,7 +22,7 @@ class Transfer
       sender.balance += amount
       self.status = "reversed"
     elsif 
-    
+    self.status = "rejected"
   end
   
   def reverse_transaction
